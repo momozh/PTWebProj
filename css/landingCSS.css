@@ -1,0 +1,264 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300);
+
+body,
+html {
+    width: 100%;
+    height: 100%
+}
+body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+}
+hr {
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #0886F8
+}
+hr.light {
+    border-color: #fff
+}
+a {
+    color: #0886F8;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s
+}
+a:focus,
+a:hover {
+    color: #0886F8
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px
+}
+
+.btn-capsul {
+	border-radius: 30px;
+}
+
+.btn-transparent-white {
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+
+
+#mainNav {
+    border-color: rgba(34, 34, 34, .05);
+    background-color: #fff;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s
+}
+#mainNav .navbar-brand {
+    font-weight: 700;
+	font-size: 24px;
+    text-transform: lowercase;
+    color: #0886F8;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif
+}
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+    color: #0886F8
+}
+#mainNav .navbar-toggle {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+    color: #0886F8
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
+    color: #0886F8!important;
+    background-color: transparent
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover {
+    background-color: transparent
+}
+@media (min-width: 992px) {
+    #mainNav {
+        border-color: rgba(255, 255, 255, .3);
+        background-color: transparent
+    }
+    #mainNav .navbar-brand {
+        color: rgba(255, 255, 255, .7)
+    }
+    #mainNav .navbar-brand:focus,
+    #mainNav .navbar-brand:hover {
+        color: #fff
+    }
+    #mainNav .navbar-nav>li.nav-item>a.nav-link,
+    #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+        color: rgba(255, 255, 255, .7)
+    }
+    #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+    #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+        color: #fff
+    }
+    #mainNav.navbar-shrink {
+        border-color: rgba(34, 34, 34, .05);
+        background-color: #fff
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 16px;
+        color: #0886F8
+    }
+    #mainNav.navbar-shrink .navbar-brand:focus,
+    #mainNav.navbar-shrink .navbar-brand:hover {
+        color: #0886F8
+    }
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
+        color: #222
+    }
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
+        color: #0886F8
+    }
+}
+
+
+.service-sec .heading {
+	float: left;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.service-sec .logo{
+	padding: 10% 25%;
+	vertical-align: middle;
+}
+
+.service-sec h2 {
+	padding-left: 3%;
+	display: block;
+	text-transform: capitalize;
+	font-weight: 600;
+	color: #0297FF;
+	font-size: 32px;
+}
+.service-sec h2 small {
+	text-transform: lowercase;
+	color: #222;
+	display: block;
+	font-size: 22px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.service-sec i {
+	border: 1px solid #0297FF;
+	border-radius: 2px;
+	font-size: 25px;
+	padding: 12px 0;
+	width: 52px;
+	color: #0297FF;
+	margin-bottom: 20px
+}
+.service-sec h3 {
+	font-size: 23px;
+	font-weight: 600;
+}
+.service-sec p {
+	line-height: 22px;
+	margin-top: 13px;
+	padding: 0 21px;
+}
+.service-sec .service-block {
+	margin-top: 30px;
+}
+
+
+.case-study {
+	background: url('http://grafreez.com/wp-content/temp_demos/burnout/img/para-01.jpg') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	position: relative;
+}
+.case-study:before {
+	content: ' ';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,76,26,0.8);
+	top: 0;
+	left: 0
+}
+
+.case-study h3 {
+	padding-top: 5%;
+	font-size: 24px;
+}
+
+.case-study h2 {
+	font-size: 55px;
+	font-weight: 800;
+	margin-top: 25%;
+	margin-bottom: 25%;
+}
+.case-study h2 small {
+	display: block;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.case-study p {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.browse-events {
+	background: #e5e5e7;
+	padding-bottom: 30px;
+}
+
+.browse-events h2 {
+	font-size: 30px;
+	font-weight: 300;
+	padding-top: 5%;
+}
+
+.browse-events h2 small {
+	display: block;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.contact {
+	background: #666982;
+	padding-bottom: 50px;
+	padding-top: 100px;
+	color: #ffffff;
+}
+
+.contact a{
+    color: #ffffff;
+}
+
+.contact hr{
+	border-color: #ffffff;
+}
+
+.parallax-section {
+	background-attachment: fixed!important;
+}
