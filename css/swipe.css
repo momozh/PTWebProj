@@ -54,7 +54,7 @@
 	font-size: 54px;
 	line-height: 59px;
 	padding: 0 19%;
-	text-transform: uppercase;
+	font-weight: 300;
 }
 
 .main-slider h2 {
@@ -62,13 +62,13 @@
 	font-size: 54px;
 	line-height: 59px;
 	padding: 0 19%;
-	text-transform: uppercase;
+	font-weight: 300;
 }
 
 .main-slider p{
 	color: #fff;
 	font-size: 15px;
-	text-transform: lowercase;
+	font-weight: 300;
 }
 .main-slider .swiper-pagination-bullet {
 	width: 20px;

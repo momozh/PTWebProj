@@ -121,7 +121,7 @@ p {
         background-color: #fff
     }
     #mainNav.navbar-shrink .navbar-brand {
-        font-size: 16px;
+        font-size: 18px;
         color: #0886F8
     }
     #mainNav.navbar-shrink .navbar-brand:focus,
@@ -136,7 +136,14 @@ p {
     #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
         color: #0886F8
     }
+	.navbar-nav.navbar-center {
+		position: absolute;
+		left: 50%;
+		transform: translatex(-50%);
+	}
 }
+
+
 
 
 .service-sec .heading {
@@ -261,4 +268,10 @@ p {
 
 .parallax-section {
 	background-attachment: fixed!important;
+}
+
+.btn-pill{
+	border-radius:23px;
+	padding: 5px 35px;
+	text-transform: Uppercase;
 }
