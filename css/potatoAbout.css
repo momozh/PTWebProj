@@ -1,0 +1,224 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300);
+
+body,
+html {
+    width: 100%;
+    height: 100%
+}
+body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+	background: url('../img/about/background.jpg') no-repeat fixed center center;
+}
+hr {
+    border-width: 3px;
+    border-color: #0886F8
+}
+hr.light {
+    border-color: #fff
+}
+a {
+    color: #0886F8;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s
+}
+a:focus,
+a:hover {
+    color: #0886F8
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px
+}
+
+.btn-capsul {
+	border-radius: 30px;
+}
+
+.btn-transparent-white {
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+
+
+#mainNav {
+    border-color: rgba(34, 34, 34, .05);
+    background-color: #fff;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s
+}
+#mainNav .navbar-brand {
+    font-weight: 700;
+	font-size: 24px;
+    text-transform: lowercase;
+    color: #0886F8;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif
+}
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+    color: #0886F8
+}
+#mainNav .navbar-toggle {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+    color: #0886F8
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
+    color: #0886F8!important;
+    background-color: transparent
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover {
+    background-color: transparent
+}
+@media (min-width: 992px) {
+    #mainNav {
+        border-color: rgba(255, 255, 255, .3);
+        background-color: transparent
+    }
+    #mainNav .navbar-brand {
+        color: rgba(255, 255, 255, .7)
+    }
+    #mainNav .navbar-brand:focus,
+    #mainNav .navbar-brand:hover {
+        color: #fff
+    }
+    #mainNav .navbar-nav>li.nav-item>a.nav-link,
+    #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+        color: rgba(255, 255, 255, .7)
+    }
+    #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+    #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+        color: #fff
+    }
+    #mainNav.navbar-shrink {
+        border-color: rgba(34, 34, 34, .05);
+        background-color: #fff
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 18px;
+        color: #0886F8
+    }
+    #mainNav.navbar-shrink .navbar-brand:focus,
+    #mainNav.navbar-shrink .navbar-brand:hover {
+        color: #0886F8
+    }
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
+        color: #222
+    }
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
+        color: #0886F8
+    }
+	.navbar-nav.navbar-center {
+		position: absolute;
+		left: 50%;
+		transform: translatex(-50%);
+	}
+}
+
+
+.parallax-section {
+	background-attachment: fixed!important;
+}
+
+.btn-pill{
+	border-radius:23px;
+	padding: 5px 35px;
+	text-transform: Uppercase;
+}
+
+.pageContent{
+	margin-top: 30vh;
+	margin-bottom: 15vh;
+}
+
+.contentContainer{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #e5e5e7;
+}
+
+.subContent{
+	padding-top: 50px;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
+.back-to-top.btn {
+	border-radius: 50%;
+}
+
+.back-to-top.btn.btn-primary {
+	font-size: 2 rem;
+}
+
+.about-Header {
+	padding-top: 50px;
+	background: url('https://media.coindesk.com/uploads/2014/12/shutterstock_142758034-crop-e1417968425743.jpg') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	position: relative;
+}
+
+.about-Header h1 {
+	padding-top: 50px;
+	padding-left: 10px;
+	font-weight: 300;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.48), 0 1px 2px rgba(0,0,0,0.95);
+}
+
+.about-Header h2{
+	padding-top: 30px;
+	padding-left: 10px;
+	font-weight: 300;
+	font-size: 20px;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.24), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.about-Header h1 {
+	font-size: 45px;
+}
+
+.aboutContent {
+	margin-top: 30px;
+}
+
+.aboutContent h2 {
+	font-weight: 300;
+}
+
+

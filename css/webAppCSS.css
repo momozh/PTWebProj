@@ -114,7 +114,7 @@ h5 {
 
 .teamProfile img.teamProfile-lg{
     z-index: 0;
-    width: 100%;
+	width: 100%;
 	min-height: 300px;
     margin-bottom: 10px;
 }
@@ -124,7 +124,6 @@ h5 {
     margin: -90px 10px 0px 50px;
 	display: inline-block;
     width: 150px;
-    height: 150px;
     margin-right: 15px;
     vertical-align: top;
     border: 0;
@@ -147,20 +146,16 @@ h5 {
 	font-weight: 300;
 }
 
-@media (max-width:768px)
+@media (max-width:992px)
 {
-	.profileText>h1{
-		font-weight: 400;
-		font-size:16px;
-	}
 
 	.teamProfile-profile
 	{
-		width: 100px;
-		height: 100px;
-		margin: -45px 10px 0px 25px;
+		position: relative;
+		display: block;
+		width: 150px;
+		margin: -45px 10px 0px 10px;
 		z-index: 9;
-		width: 20%; 
 	}
 }
 
@@ -180,6 +175,8 @@ h5 {
   padding: 10px;
 }
 
+
+/* Default mode */
 .teamTab > .nav-tabs {
   border: none;
   margin: 0px;
@@ -198,7 +195,7 @@ h5 {
 .teamTab > .nav-tabs > li.open, .teamTab > .nav-tabs > li:hover {
   border-bottom: 4px solid #fbcdcf;
 }
-.teamTab > .nav-tabs > li.open > a, .teamTab > .nav-tabs > li:hover > a {
+.teamTab > .nav-tabs > li.open > a, .teamTab > .nav-tabs > li:hover > a.active {
   border: 0;
   background: none !important;
   color: #333333;
@@ -209,12 +206,16 @@ h5 {
 .teamTab > .nav-tabs > li.open .dropdown-menu, .teamTab > .nav-tabs > li:hover .dropdown-menu {
   margin-top: 0px;
 }
-.teamTab > .nav-tabs > li.active {
+
+
+.teamTab > .nav-tabs > li > a.active {
   border-bottom: 4px solid #f3565d;
   position: relative;
 }
+
+
 .teamTab > .nav-tabs > li.active > a {
-  border: 0;
+  border: 4px;
   color: #333333;
 }
 .teamTab > .nav-tabs > li.active > a > i {
@@ -227,9 +228,7 @@ h5 {
   border-top: 1px solid #eee;
   padding: 15px 0;
 }
-
-
-.portlet .tabbable-line > .tab-content {
+.portlet .teamTab > .tab-content {
   padding-bottom: 0;
 }
 
