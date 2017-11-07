@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Be part of the Potato - Potato</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300,500|Material+Icons" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+	<!-- CSS Files -->
+	<link href="css/bootstrap3.min.css" rel="stylesheet" />
+	<link href="css/material-bootstrap-wizard.css" rel="stylesheet" />
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link href="css/demo.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="image-container set-full-height" style="background-image: url('img/registration/wizard-book.jpg')">
+	    <!--   Big container   -->
+	    <div class="container">
+	        <div class="row">
+		        <div class="col-sm-8 col-sm-offset-2">
+		            <!--      Wizard container        -->
+		            <div class="wizard-container">
+		                <div class="card wizard-card" data-color="blue" id="wizardProfile">
+		                    <form action="" method="">
+		                <!--        You can switch " data-color="purple" "  with one of the next bright colors: "green", "orange", "red", "blue"       -->
+
+		                    	<div class="wizard-header">
+		                        	<h3 class="wizard-title">
+		                        	   Be part of Potato
+		                        	</h3>
+									<h5>These information will let us know more about you. You will know it later...</h5>
+		                    	</div>
+								<div class="wizard-navigation">
+									<ul>
+			                            <li><a href="#about" data-toggle="tab">About</a></li>
+			                            <li><a href="#preference" data-toggle="tab">Preference</a></li>
+			                            <li><a href="#payment" data-toggle="tab">Payment</a></li>
+			                        </ul>
+								</div>
+
+		                        <div class="tab-content">
+		                            <div class="tab-pane" id="about">
+		                              <div class="row">
+		                                	<h4 class="info-text">First, we would like to know some of your basic informations...</h4>
+		                                	<div class="col-sm-4 col-sm-offset-1">
+		                                    	<div class="picture-container">
+		                                        	<div class="picture">
+                                        				<img src="img/registration/default-avatar.png" class="picture-src" id="wizardPicturePreview" title=""/>
+		                                            	<input type="file" id="wizard-picture">
+		                                        	</div>
+		                                        	<h6>Choose Picture</h6>
+		                                    	</div>
+		                                	</div>
+		                                	<div class="col-sm-6">
+												<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons">face</i>
+													</span>
+													<div class="form-group label-floating">
+			                                          <label class="control-label">First Name <small>(required)</small></label>
+			                                          <input name="firstname" type="text" class="form-control">
+			                                        </div>
+												</div>
+
+												<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons">record_voice_over</i>
+													</span>
+													<div class="form-group label-floating">
+													  <label class="control-label">Last Name <small>(required)</small></label>
+													  <input name="lastname" type="text" class="form-control">
+													</div>
+												</div>
+		                                	</div>
+											<div class="row col-sm-12">
+												<div class="col-sm-4 col-sm-offset-1">
+													<div class="input-group">
+														<span class="input-group-addon">
+															<i class="material-icons">email</i>
+														</span>
+														<div class="form-group label-floating">
+															<label class="control-label">Email <small>(required)</small></label>
+															<input name="email" type="email" class="form-control">
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-5">
+													<div class="input-group form-group label-floating">
+														<span class="input-group-addon">
+															<i class="fa fa-graduation-cap"></i>
+														</span>
+														<label class="control-label">University <small>(required)</small></label>
+														<select name="country" class="form-control">
+															<option disabled="" selected=""></option>
+															<option value="Afghanistan"> Social University </option>
+															<option value="Albania"> Grabarge University </option>
+															<option value="Algeria"> The Only University of Hong Kong </option>
+															<option value="American Samoa"> Shenzhen Chinese University Hong Kong Branch </option>
+															<option value="Andorra"> Whale University of Hong Kong </option>
+															<option value="Antarctica"> Others </option>
+															<option value="...">...</option>
+														</select>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-10">
+		                                    </div>
+		                            	</div>
+		                            </div>
+		                            <div class="tab-pane" id="preference">
+		                                <h4 class="info-text"> How do you feel yourself? </h4>
+		                                <div class="row">
+		                                    <div class="col-sm-10 col-sm-offset-1">
+		                                        <div class="col-sm-4">
+		                                            <div class="choice" data-toggle="wizard-checkbox">
+		                                                <input type="checkbox" name="jobb" value="Design">
+		                                                <div class="icon">
+		                                                    <i class="fa fa-fire"></i>
+		                                                </div>
+		                                                <h6>Active</h6>
+		                                            </div>
+		                                        </div>
+		                                        <div class="col-sm-4">
+		                                            <div class="choice" data-toggle="wizard-checkbox">
+		                                                <input type="checkbox" name="jobb" value="Code">
+		                                                <div class="icon">
+		                                                    <i class="fa fa-comments"></i>
+		                                                </div>
+		                                                <h6>Fun</h6>
+		                                            </div>
+		                                        </div>
+		                                        <div class="col-sm-4">
+		                                            <div class="choice" data-toggle="wizard-checkbox">
+		                                                <input type="checkbox" name="jobb" value="Develop">
+		                                                <div class="icon">
+		                                                    <i class="fa fa-coffee"></i>
+		                                                </div>
+		                                                <h6>Relax</h6>
+		                                            </div>
+		                                        </div>
+		                                        <div class="col-sm-4">
+		                                            <div class="choice" data-toggle="wizard-checkbox">
+		                                                <input type="checkbox" name="jobb" value="Develop">
+		                                                <div class="icon">
+		                                                    <i class="fa fa-handshake-o"></i>
+		                                                </div>
+		                                                <h6>Cooperative</h6>
+		                                            </div>
+		                                        </div>
+		                                        <div class="col-sm-4">
+		                                            <div class="choice" data-toggle="wizard-checkbox">
+		                                                <input type="checkbox" name="jobb" value="Develop">
+		                                                <div class="icon">
+		                                                    <i class="fa fa-hand-paper-o"></i>
+		                                                </div>
+		                                                <h6>I can't decide</h6>
+		                                            </div>
+		                                        </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                            <div class="tab-pane" id="payment">
+		                                <div class="row">
+		                                    <div class="col-sm-12">
+		                                        <h4 class="info-text"> Time to talk about money... How you want to settle your future payment?</h4>
+												
+		                                    </div>
+		                                    <div class="col-sm-7 col-sm-offset-1">
+	                                        	<div class="form-group label-floating">
+	                                        		<label class="control-label">Card Number</label>
+	                                    			<input type="text" class="form-control">
+	                                        	</div>
+		                                    </div>
+		                                    <div class="col-sm-3">
+		                                        <div class="form-group label-floating">
+		                                            <label class="control-label">Card Type</label>
+	                                            	<select name="country" class="form-control">
+														<option disabled="" selected=""></option>
+	                                                	<option value="BankCard"> Bank Card </option>
+	                                                	<option value="CreditCard"> Credit Card </option>
+	                                            	</select>
+		                                        </div>
+		                                    </div>
+		                                    <div class="col-sm-5 col-sm-offset-1">
+		                                        <div class="form-group label-floating">
+		                                            <label class="control-label">Card Holder's Name</label>
+		                                            <input type="text" class="form-control">
+		                                        </div>
+		                                    </div>
+		                                    <div class="col-sm-5">
+												<input type='button' class='btn btn-fill btn-success btn-wd' name='verify' value='Add Card & Next' onclick="location.href='redirect.html?target=profile.html';"/>
+		                                    </div>
+		                                </div>
+										<div class="row">
+											<div class="col-sm-12">
+												<hr>
+												<h5 class="info-text"><small>We support Credit Cards and Direct Debit on all major banks accounts in Hong Kong</small><br><span class="cardLogo"><i class="fa fa-fw fa-google-wallet fa-lg"></i><i class="fa fa-fw fa-cc-mastercard fa-lg"></i><i class="fa fa-cc-visa fa-fw fa-lg"></i><i class="fa fa-cc-amex fa-fw fa-lg"></i><i class="fa fa-fw fa-cc-jcb fa-lg"></i><i class="fa fa-fw fa-credit-card fa-lg"></i></span></h5>
+											</div>
+										</div>
+		                            </div>
+		                        </div>
+		                        <div class="wizard-footer">
+		                            <div class="pull-right">
+		                                <input type='button' class='btn btn-next btn-fill btn-success btn-wd' name='next' value='Next' />
+		                                <!-- input type='button' class='btn btn-finish btn-fill btn-success btn-wd' name='finish' value='Finish' / -->
+										<input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='skip' value='Skip Payment Method' onclick="location.href='redirect.html?target=profile.html';"/>
+		                            </div>
+
+		                            <div class="pull-left">
+		                                <input type='button' class='btn btn-previous btn-fill btn-normal btn-wd' name='previous' value='Previous' />
+		                            </div>
+		                            <div class="clearfix"></div>
+		                        </div>
+		                    </form>
+		                </div>
+		            </div> <!-- wizard container -->
+		        </div>
+	        </div><!-- end row -->
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h5 class="signInText">Already part of Potato? <a href="login.html"> Click here to Sign in now!</h5> </a>
+				</div>
+			</div>
+	    </div> <!--  big container -->
+	</div>
+
+</body>
+	<!--   Core JS Files   -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<script src="js/jquery.bootstrap.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Wizard -->
+	<script src="js/material-bootstrap-wizard.js"></script>
+
+    <!--  More information about jquery.validate here: http://jqueryvalidation.org/	 -->
+	<script src="js/jquery.validate.min.js"></script>
+
+</html>

@@ -44,7 +44,7 @@ e.preventDefault();var t=a(this).index()*S.params.slidesPerGroup;S.params.loop&&
         prevButton: '.swiper-button-prev',
         paginationClickable: true,
         centeredSlides: true,
-        autoplay: 6000,
+        autoplay: 10000,
            speed: 1500,
            loop: true,
         autoplayDisableOnInteraction: false

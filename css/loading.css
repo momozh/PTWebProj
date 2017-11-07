@@ -1,0 +1,23 @@
+.progress, .alert {
+    margin: 15px;
+}
+
+.progress {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 40vh;
+}
+
+.alert {
+    display: none;
+}
+
+
+body{
+	height: 100vh;
+}
+
+.marginTop{
+	margin-top: 40vh;
+}

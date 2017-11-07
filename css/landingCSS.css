@@ -255,6 +255,18 @@ p {
 	font-weight: 300;
 }
 
+.browse-events h3 {
+	font-size: 30px;
+	font-weight: 300;
+	padding-top: 5%;
+}
+
+.browse-events h3 small {
+	display: block;
+	font-size: 16px;
+	font-weight: 300;
+}
+
 .contact {
 	background: #666982;
 	padding-bottom: 50px;
@@ -278,4 +290,20 @@ p {
 	border-radius:23px;
 	padding: 5px 35px;
 	text-transform: Uppercase;
+}
+
+.tf-header .tf-hh-col {
+    padding-right: 0.5rem !important;
+}
+
+.tf-header-heading-btn {
+    color: #fff;
+    background-color: #FF574E;
+    border-color: #FF574E;
+}
+
+.tf-header-heading-btn:hover{
+    color: #fff;
+    background-color: #b23c36;
+    border-color: #FF574E;
 }

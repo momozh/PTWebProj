@@ -17,7 +17,7 @@
 	height: 99vh;
 }
 .swiper-slide {
-	text-align: center;
+	text-align: left;
 	font-size: 18px;
 	background: #fff;
 	/* Center slide text vertically */
@@ -51,23 +51,21 @@
 }
 .main-slider h1 {
 	color: #fff;
-	font-size: 54px;
+    font-size: 3rem;
 	line-height: 59px;
-	padding: 0 19%;
-	font-weight: 300;
+	font-weight: 500;
 }
 
 .main-slider h2 {
 	color: #fff;
-	font-size: 54px;
+    font-size: 3rem;
 	line-height: 59px;
-	padding: 0 19%;
 	font-weight: 300;
 }
 
 .main-slider p{
 	color: #fff;
-	font-size: 15px;
+	font-size: 1rem;
 	font-weight: 300;
 }
 .main-slider .swiper-pagination-bullet {
@@ -91,6 +89,25 @@
 	text-align: center;
 	vertical-align: middle;
 	margin-top: 22px;
+}
+
+@media screen and (max-width: 768px) {
+	.main-slider h1,h2 {
+		font-size: 2rem;
+		line-height: normal;
+	}
+	.main-slider .fa {
+		font-size: 12px;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		margin-top: 0px;
+	}
+	.main-slider p{
+		color: #fff;
+		font-size: 0.9rem;
+		font-weight: 300;
+	}
 }
 
 /**
