@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://cs3382.cs.cityu.edu.hk/kwokctse2/Potato-Fintech/index.html</loc>
-<lastmod>2017-11-06</lastmod>
+<lastmod>2017-11-14</lastmod>
 <changefreq>weekly</changefreq>
 </url>
 <url>
@@ -27,7 +27,12 @@
 </url>
 <url>
 <loc>http://cs3382.cs.cityu.edu.hk/kwokctse2/Potato-Fintech/registration.html</loc>
-<lastmod>2017-11-06</lastmod>
+<lastmod>2017-11-14</lastmod>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>http://cs3382.cs.cityu.edu.hk/kwokctse2/Potato-Fintech/profile.html</loc>
+<lastmod>2017-11-14</lastmod>
 <changefreq>weekly</changefreq>
 </url>
 </urlset>

@@ -2,30 +2,276 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Show All Events - Potato Team - Potato</title>
+		<meta name="viewport" content="initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="This is the profile page for each individual users.">
+		<meta name="keywords" content="Potato,Potato FinTech,CityU,HK,CS3382,FinTech,Hong Kong,????,????,Events,Team Administration,Profile">
 		<meta name="author" content="CityU CS3382 - Group 16">
-		<meta name="keywords" content="Potato FinTech,CityU,HK,CS3382,FinTech,Hong Kong,金融科技,城市大學,Browse Events,Event Search,Recommend Events,Potato">
 		<meta name="msvalidate.01" content="7FA33A4A2F5375B6AD16ACAD9D3F6707" />
-		<meta name="viewport" content="initial-scale=1, shrink-to-fit=no" />
-		<meta name="viewport" content="width=device-width" />
+        <title>Potato Team - "Potato Fintech" CityU</title>
+		
+		<!-- Browser Specific Meta -->
+		<meta name="theme-color" content="#FFFFFF">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="icon" sizes="192x192" href="icon/icon192.png">
+		<link rel="icon" sizes="144x144" href="icon/icon144.png">
+		<link rel="icon" sizes="96x96" href="icon/icon96.png">
+		<link rel="icon" sizes="48x48" href="icon/icon48.png">
+		<link rel="apple-touch-icon" href="icon192.png">
 		
 		<!-- Bootstrap 4-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 		<!-- Custom Theme-->
+		<link rel="stylesheet" href="css/webAppHeader.css">
 		<link rel="stylesheet" href="css/webAppCSS.css">
 		<link rel="stylesheet" href="css/footer.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 		
 	</head>
     <body>
-	 <div class="logo-container">
-		<div class="logo">
-			<img src="img/logo/logo-white.jpg">
-		</div>
-		
-		<div class="brand">
-			potato
-		</div>
-	</div>
+  <!-- container section start -->
+  <section id="container" class="">
+    <header class="header dark-bg">
+      <div class="toggle-nav">
+        <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
+      </div>
+
+      <!--logo start-->
+      <a href="index.html" class="logo">potato<span class="lite">Home</span></a>
+      <!--logo end-->
+
+      <div class="top-nav notification-row">
+        <!-- notificatoin dropdown start-->
+        <ul class="nav pull-right top-menu">
+			<li id="searchButton" class="dropdown">
+				<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+					<i class="fa fa-search"></i>
+				</a>
+				<ul class="dropdown-menu extended tasks-bar">
+					<li>
+						<form class="navbar-form">
+						  <input class="form-control" placeholder="Search" type="text">
+						</form>
+					</li>
+				</ul>
+			</li>
+          <!-- task notificatoin start -->
+          <li id="task_notificatoin_bar" class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="fa fa-tasks"></i>
+                            <span class="badge bg-important">4</span>
+                        </a>
+            <ul class="dropdown-menu extended tasks-bar">
+              <li>
+                <p class="blue">You have 4 running workflow</p>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="task-info">
+                    <div class="desc"><strong>Let's watch film</strong><br>Awaiting upload event report</div>
+                    <div class="percent">80%</div>
+                  </div>
+                  <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                      <span class="sr-only">90% Complete (success)</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="task-info">
+                    <div class="desc"><strong>Orientation to Film</strong><br>Add event information</div>
+                    <div class="percent">20%</div>
+                  </div>
+                  <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                      <span class="sr-only">30% Complete (warning)</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="task-info">
+                    <div class="desc"><strong>ICAC - Membership fee</strong><br>Awaiting confirmation by members</div>
+                    <div class="percent">50%</div>
+                  </div>
+                  <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                      <span class="sr-only">80% Complete</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="task-info">
+                    <div class="desc"><strong>System:Potato Creation</strong><br>Waiting for Admin approval</div>
+                    <div class="percent">60%</div>
+                  </div>
+                  <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                      <span class="sr-only">78% Complete (danger)</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="external">
+                <a href="#">See All Tasks</a>
+              </li>
+            </ul>
+          </li>
+          <!-- task notificatoin end -->
+          <!-- inbox notificatoin start-->
+          <li id="mail_notificatoin_bar" class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="fa fa-envelope-o"></i>
+                            <span class="badge bg-important">5</span>
+                        </a>
+            <ul class="dropdown-menu extended inbox">
+              <li>
+                <p class="blue">You have 5 new messages</p>
+              </li>
+              <li>
+                <a href="#">
+                                    <span class="photo"><img alt="avatar" src="./img/avatar/avatar-mini.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Paul Tsang</span>
+                                    <span class="time">1 min</span>
+                                    </span>
+                                    <span class="message">
+                                        Do you know how to use the admin panel for the team?
+                                    </span>
+                                </a>
+              </li>
+              <li>
+                <a href="#">
+                                    <span class="photo"><img alt="avatar" src="./img/avatar/avatar-mini2.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">David Davis</span>
+                                    <span class="time">5 mins</span>
+                                    </span>
+                                    <span class="message">
+										Can you give me some time to figure out how to add new members?
+                                    </span>
+                                </a>
+              </li>
+              <li>
+                <a href="#">
+                                    <span class="photo"><img alt="avatar" src="./img/avatar/avatar-mini3.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Phillip Cheng</span>
+                                    <span class="time">2 hrs</span>
+                                    </span>
+                                    <span class="message">
+                                        I like Potato. It is really useful.
+                                    </span>
+                                </a>
+              </li>
+              <li>
+                <a href="#">
+                                    <span class="photo"><img alt="avatar" src="./img/avatar/avatar-mini4.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Ray Wong</span>
+                                    <span class="time">1 day</span>
+                                    </span>
+                                    <span class="message">
+                                        Can you give me some photo for the event? Send me via Email.
+                                    </span>
+                                </a>
+              </li>
+              <li>
+                <a href="#">See all messages</a>
+              </li>
+            </ul>
+          </li>
+          <!-- inbox notificatoin end -->
+          <!-- alert notification start-->
+          <li id="alert_notificatoin_bar" class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+
+                            <i class="fa fa-bell-o"></i>
+                            <span class="badge bg-important">4</span>
+                        </a>
+            <ul class="dropdown-menu extended notification">
+              <li>
+                <p class="blue">You have 4 new notifications</p>
+              </li>
+              <li>
+                <a href="#">
+                                    <span class="label label-primary"><i class="icon_profile"></i></span>
+                                    Friend Request
+                                    <span class="small italic pull-right">5 mins</span>
+                                </a>
+              </li>
+              <li>
+                <a href="#">
+                                    <span class="label label-warning"><i class="icon_pin"></i></span>
+                                    John location.
+                                    <span class="small italic pull-right">50 mins</span>
+                                </a>
+              </li>
+              <li>
+                <a href="#">
+                                    <span class="label label-danger"><i class="icon_book_alt"></i></span>
+                                    Project 3 Completed.
+                                    <span class="small italic pull-right">1 hr</span>
+                                </a>
+              </li>
+              <li>
+                <a href="#">
+                                    <span class="label label-success"><i class="icon_like"></i></span>
+                                    Mick appreciated your work.
+                                    <span class="small italic pull-right"> Today</span>
+                                </a>
+              </li>
+              <li>
+                <a href="#">See all notifications</a>
+              </li>
+            </ul>
+          </li>
+          <!-- alert notification end-->
+          <!-- user login dropdown start-->
+          <li class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="profile-ava">
+                                <img alt="" src="img/registration/default-avatar.png">
+                            </span>
+							<span class="username" id="navusername">Joe Yeung</span>
+                            <b class="caret"></b>
+                        </a>
+            <ul class="dropdown-menu extended logout">
+              <div class="log-arrow-up"></div>
+              <li class="eborder-top">
+                <a href="profile.html"><i class="icon_profile"></i> My Profile</a>
+              </li>
+              <li>
+                <a href="#"><i class="icon_mail_alt"></i> My Inbox</a>
+              </li>
+              <li>
+                <a href="#"><i class="icon_clock_alt"></i> Timeline</a>
+              </li>
+              <li>
+                <a href="#"><i class="icon_chat_alt"></i> Chats</a>
+              </li>
+              <li>
+                <a href="login.html"><i class="icon_key_alt"></i> Log Out</a>
+              </li>
+              <li>
+                <a href="#"><i class="icon_key_alt"></i> Help</a>
+              </li>
+              <li>
+                <a href="index.html"><i class="icon_key_alt"></i> Return to Home</a>
+              </li>
+            </ul>
+          </li>
+          <!-- user login dropdown end -->
+        </ul>
+        <!-- notificatoin dropdown end-->
+      </div>
+    </header>
+    <!--header end-->
+
 	<section class="teamHead">
 		<div class="container">
 			<div class="teamProfile">
@@ -66,7 +312,7 @@
 									Duis autem eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
 								</p>
 							</div>
-							<div class="tab-pane active" id="newsfeed">
+							<div class="tab-pane" id="newsfeed">
 								<p>
 									I'm in Tab 2.
 								</p>
@@ -74,7 +320,7 @@
 									Duis autem eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
 								</p>
 							</div>
-							<div class="tab-pane" id="eventSearch">
+							<div class="tab-pane active" id="eventSearch">
 								<div class="row">
 											<div class="col-md-12 col-lg-4 mt-4">
 												<div class="card card-inverse card-info">
@@ -211,7 +457,7 @@
 			</button>
 		  </div>
 		  <div class="modal-body">
-			...
+				
 		  </div>
 		  <div class="modal-footer">
 			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -229,10 +475,27 @@
 	  </div>
 	</div>
 	
-		
-		<!-- Bootstrap 4-->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-    </body>
+	
+	
+	<!-- Bootstrap 4-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+	<!-- Calendar -->
+	<script src="vendor/fullcalendar/fullcalendar/fullcalendar.js"></script>
+	<script src="js/calendar-custom.js"></script>
+	<script src="js/searchFilter.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109466601-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-109466601-1');
+	</script>
+
+</body>
 </html>

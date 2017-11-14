@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300);
+
+.searchable-container{
+	padding-top: 15px;
+}
+
+.sms-send-page .pull-left p {
+    color: #5b6773;
+    margin: 0;
+}
+.sms-send-page .pull-left small {
+    color: #999999;
+    font-size: 10px;
+}
+.sms-send-page .pull-left {
+    line-height: 18px;
+}
+.sms-send-page .list-group-item {
+    padding: 14px;
+      border: 1px solid #e6e8eb;
+       position: relative;
+}
+.sms-send-page .pull-right .btn {
+    border: medium none;
+    border-radius: 23px;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 8px 20px;
+    text-transform: uppercase;
+}
+.sms-send-page .list-group {
+    box-shadow: 0 0 11px #eceeef;
+}
+.sms-send-page .list-group-item:first-child {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.sms-send-page .list-group-item:last-child {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-bottom: 0;
+}
+.sms-send-page .btn
+{
+  float: right;
+}
+
+.sms-send-page .pull-left, .sms-send-page .pull-right{
+  padding: 0px;
+}
+.sms-send-page .pull-left img {
+    width: 37px;
+    height: 37px;
+    float: left;
+    margin-right: 10px;
+}
+.sms-send-page .pull-left small .fa {
+    font-size: 9px;
+    vertical-align: middle;
+}
+
+.responsive-btn {
+    white-space: normal;
+}
+
+.body{
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h2{
+	font-weight: 300;
+}
+
+

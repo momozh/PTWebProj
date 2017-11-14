@@ -14,7 +14,9 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/Policies", {title: 'Policies - Potato Fintech', templateUrl: "ajs-pages/pages/Policies.html", controller: "PageCtrl"})
     .when("/About", {title: 'About Us - Potato Fintech', templateUrl: "ajs-pages/pages/About.html", controller: "PageCtrl"})
 	.when("/About/About-Potato-Logo", {title: 'Explore our new Logo - Potato Fintech', templateUrl: "ajs-pages/pages/About.html#About-Potato-Logo", controller: "PageCtrl"})
-    //.when("/pricing", {templateUrl: "partials/pricing.html", controller: "PageCtrl"})
+    .when("/FAQ", {title: 'About Us - Potato Fintech', templateUrl: "ajs-pages/pages/FAQ.html", controller: "PageCtrl"})
+	.when("/Sitemap", {title: 'About Us - Potato Fintech', templateUrl: "ajs-pages/pages/Sitemap.html", controller: "PageCtrl"})
+	//.when("/pricing", {templateUrl: "partials/pricing.html", controller: "PageCtrl"})
     //.when("/services", {templateUrl: "partials/services.html", controller: "PageCtrl"})
     //.when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
     // Blog

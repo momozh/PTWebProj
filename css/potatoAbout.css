@@ -8,6 +8,8 @@ html {
 body {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
 	background: url('../img/about/background.jpg') no-repeat fixed center center;
+	background-size: cover;
+	height: 100vh;
 }
 hr {
     border-width: 3px;

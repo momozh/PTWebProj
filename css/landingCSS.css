@@ -9,7 +9,7 @@ body {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-    max-width: 50px;
+    max-width: 100px;
     border-width: 3px;
     border-color: #0886F8
 }
