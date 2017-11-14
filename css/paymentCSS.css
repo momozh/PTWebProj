@@ -2,7 +2,7 @@
 @import url("https://cdn.linearicons.com/free/1.0.0/icon-font.min.css");
 body {
   font-family: 'Montserrat', sans-serif;
-  background: url("https://grafreez.com/wp-content/temp_demos/burnout/img/3.jpg") no-repeat;
+  background: url("https://grafreez.com/wp-content/temp_demos/burnout/img/3.jpg") no-repeat fixed top center;
 }
 
 h1{
@@ -160,4 +160,18 @@ h2{
   background: #6d184e;
   background-size: cover;
   background-position: center center;
+}
+
+#myModal{
+		padding-top: 15%;
+}
+
+.modal-footer small{
+	font-size: 8px;
+	color: #919396;
+}
+
+.modalTitle {
+	background: #ff5733;
+	color: #ffffff;
 }

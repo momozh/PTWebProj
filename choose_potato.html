@@ -34,7 +34,7 @@
       </div>
 
       <!--logo start-->
-      <a href="index.html" class="logo">potato<span class="lite">Home</span></a>
+      <a href="profile.html" class="logo">potato<span class="lite">Home</span></a>
       <!--logo end-->
 
       <div class="top-nav notification-row">
@@ -277,6 +277,7 @@
 				<div class="col-md-8 profileClass">
 					<div class="row">
 						<div class="col-md-12">
+							<a href="profile.html"><span class="fa fa-arrow-left"> Return</span></a>
 							<h2>Choose the Potato you liked...</h2>
 						</div>
 						<div class="col-sm-9 col-lg-9">
@@ -295,7 +296,7 @@
 								  <p><span class="badge badge-pill badge-danger">Super Popular!</span><span class="badge badge-pill badge-info">You can find your friend here</span></p>								
 								</div>
 								<div class="col-xs-4 pull-right">
-								  <button type="button" class="btn btn-info">Open Page <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+								  <button type="button" class="btn btn-info" onclick="window.location.href='./browse-events.html'">Open Page <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
 								  <button type="button" class="btn btn-warning btn-join">Join Request<i class="fa fa-plus" aria-hidden="true"></i></button>
 								</div>
 								<div class="clearfix"></div>
@@ -307,7 +308,7 @@
 								  <p><span class="badge badge-pill badge-danger">Hot among your friends!</span><span class="badge badge-pill badge-info">You can find your friend here</span></p>								
 								</div>
 								<div class="col-xs-4 pull-right">
-								  <button type="button" class="btn btn-info">Open Page <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+								  <button type="button" class="btn btn-info" onclick="window.location.href='./browse-events.html'">Open Page <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
 								  <button type="button" class="btn btn-warning btn-join">Join Request<i class="fa fa-plus" aria-hidden="true"></i></button>
 								</div>
 								<div class="clearfix"></div>
@@ -319,7 +320,7 @@
 								  <p><span class="badge badge-pill badge-danger">Hot</span></p>								
 								</div>
 								<div class="col-xs-4 pull-right">
-								  <button type="button" class="btn btn-info">Open Page <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+								  <button type="button" class="btn btn-info" onclick="window.location.href='./browse-events.html'">Open Page <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
 								  <button type="button" class="btn btn-warning btn-join">Join Request<i class="fa fa-plus" aria-hidden="true"></i></button>
 								</div>
 								<div class="clearfix"></div>
@@ -331,7 +332,7 @@
 								  <p><span class="badge badge-pill badge-info ">Meet your interst</span></p>								
 								</div>
 								<div class="col-xs-4 pull-right">
-								  <button type="button" class="btn btn-info">Open Page <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+								  <button type="button" class="btn btn-info" onclick="window.location.href='./browse-events.html'">Open Page <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
 								  <button type="button" class="btn btn-warning btn-join">Join Request<i class="fa fa-plus" aria-hidden="true"></i></button>
 								</div>
 								<div class="clearfix"></div>
@@ -342,7 +343,7 @@
 								  <p><span class="fa fa-calendar-o"></span> 1 Opening events <span class="fa fa-users"></span> 663 members <span class="fa fa-star"> </span><span class="fa fa-star"> </span><span class="fa fa-star"> </span><span class="fa fa-star"> </span><span class="fa fa-star-o"> </span>4/5 Rating</p>							
 								</div>
 								<div class="col-xs-4 pull-right">
-								  <button type="button" class="btn btn-info">Open Page <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+								  <button type="button" class="btn btn-info" onclick="window.location.href='./browse-events.html'">Open Page <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
 								  <button type="button" class="btn btn-warning btn-join">Join Request<i class="fa fa-plus" aria-hidden="true"></i><span></span></button>
 								</div>
 								<div class="clearfix"></div>
@@ -381,9 +382,11 @@
 		$(".btn-join").click(function () {
 			 previouslyClicked.removeClass("btn-warning").addClass("btn-danger");  
 			 previouslyClicked.text("Cancel Request");
-			 $(this).addClass("btn-danger");
+			 $(this).addClass("btn-danger").text("Cancel Request");
 			 previouslyClicked = $(this);           
 		});
+		
+		
 		
 	</script>
 

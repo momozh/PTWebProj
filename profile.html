@@ -38,7 +38,7 @@
       </div>
 
       <!--logo start-->
-      <a href="index.html" class="logo">potato<span class="lite">Home</span></a>
+      <a href="profile.html" class="logo">potato<span class="lite">Home</span></a>
       <!--logo end-->
 
       <div class="top-nav notification-row">
@@ -337,7 +337,7 @@
 													<p class="desc tag"><span class="badge badge-info">Potato Team</span><span class="badge badge-warning">Premium Package included</span></p>
 													
 													<ul>
-														<li style="width:50%;"><a href="#website"><span class="fa fa-globe"></span>Event Info</a></li>
+														<li style="width:50%;"><a href="browse-events.html?status=openEvent"><span class="fa fa-globe"></span>Event Info</a></li>
 														<li style="width:50%;"><span class="fa fa-bell"></span>Set reminder</li>
 													</ul>
 												</div>
@@ -363,7 +363,7 @@
 													<p class="desc"><span class="fa fa-clock-o"></span>09:00 HKT  <span class="fa fa-map-marker"></span>CityU Library</p>
 													<p class="desc tag"><span class="badge badge-info">International Cope Against Cheating</span><span class="badge badge-warning">Bring your own notes</span></p>
 													<ul>
-														<li style="width:50%;"><a href="#website"><span class="fa fa-globe"></span>Event Info</a></li>
+														<li style="width:50%;"><a href="browse-events.html?status=openEvent"><span class="fa fa-globe"></span>Event Info</a></li>
 														<li style="width:50%;"><span class="fa fa-bell"></span>Set reminder</li>													
 													</ul>
 												</div>
@@ -399,7 +399,7 @@
 													<p class="desc tag"><span class="badge badge-info">Potato Fintech</span><span class="badge badge-warning">Free Event</span><span class="badge badge-danger">Going to sold out soon!!</span></p>
 													
 													<ul>
-														<li style="width:50%;"><a href="#website"><span class="fa fa-globe"></span>Event Info</a></li>
+														<li style="width:50%;"><a href="browse-events.html?status=openEvent"><span class="fa fa-globe"></span>Event Info</a></li>
 														<li style="width:50%;"><span class="fa fa-calendar-check-o"></span>Join Now</li>
 													</ul>
 												</div>
@@ -531,7 +531,25 @@
 				</div>
 			</div>
 		</div>
-		<hr>
+	<!-- Onload Modal -->
+	<div class="modal fade" id="onloadMessage" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h4 class="modal-title">Congratulation!</h4>
+			</div>
+			<div class="modal-body">
+			  <p>You have been successfully enrolled into <strong>Let's watch Film</strong> organized by <strong>Potato Team</strong>.</p>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		  
+		</div>
+	  </div>
 	</section>	
 	<!-- Bootstrap 4-->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -545,13 +563,8 @@
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109466601-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-109466601-1');
-	</script>
+	
+	<script src="js/onloadModal.js"></script>
 
 </body>
 </html>

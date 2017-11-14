@@ -33,3 +33,16 @@ function gup( name, url ) {
     return results == "#" ? null : results[1];
 }
 
+function redirectTo(target){
+	if(typeof IE_fix != "undefined") // IE8 and lower fix to pass the http referer
+	{
+		var referLink = document.createElement("a");
+		referLink.href = target;
+		if(!target){
+			document.body.appendChild(referLink);
+			referLink.click();
+		}
+	}
+	else {window.location.replace(target);}  // All other browsers
+}
+
