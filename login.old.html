@@ -10,9 +10,8 @@
 		
         <title>"Potato FinTech" - CS3382 Potato Platform Login</title>
 		<!-- Custom CSS -->
-		<link href="css/login.min.css" rel="stylesheet">
+		<link href="css/login.css" rel="stylesheet">
 		<!-- Bootstrap4 -->
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -20,30 +19,28 @@
     </head>
 
     <body>
-  <div class="container">
-
-    <form class="login-form" action="index.html">
-      <div class="login-wrap">
-        <p class="login-img"><i class="fa fa-lock"></i></p>
-        <div class="input-group">
-          <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
-          <input type="text" class="form-control" placeholder="Username" autofocus>
-        </div>
-        <div class="input-group">
-          <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
-          <input type="password" class="form-control" placeholder="Password">
-        </div>
-        <label class="checkbox">
-                <input type="checkbox" value="remember-me"> Remember me <br>
-                <span class="float-right">Forgot Password?</span>
-            </label>
-        <a class="btn btn-primary btn-block click" type="submit" href="profile.html">Login</a>
-		<a class="btn btn-primary btn-block click" type="submit" href="profile.html">Login via <span class="fa fa-facebook"></span></a>
-		<hr>
-        <a class="btn btn-info btn-block click" href="registration.html">Sign-up</a>
-		
-      </div>
-    </form>
-
+		<div class="container">
+			<div class="login-container">
+					<div id="output"></div>
+					<div class="avatar"></div>
+					<div class="form-box">
+						<form action="" method="">
+							<input name="user" type="text" placeholder="username">
+							<input type="password" placeholder="password">
+						</form>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input name="remember" type="checkbox" value="Remember Me"> Remember Me </input>
+						</label>
+					</div>
+					<button class="btn btn-info btn-block login" type="submit" onclick="location.href='profile.html';">Login</button>
+					 <hr/>
+                    <center><h5>or you prefer....</h5></center>
+                    <input class="btn btn-info btn-facebook btn-block" type="submit" value="Login via facebook">
+					<hr/>
+					<h5>Not yet part of the Potato? <br> <a href="registration.html">Click here to Join US!</a></h5>
+			</div>
+		</div>
     </body>
 </html>

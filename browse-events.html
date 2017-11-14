@@ -322,6 +322,26 @@
 							</div>
 							<div class="tab-pane active" id="eventSearch">
 								<div class="row">
+											<div class="col-md-12">
+		    <div class="input-group">
+                <div class="input-group-btn search-panel">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    	<span id="search_concept">Sort by</span> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#Recommendations">Recommendations</a></li>
+                      <li><a href="#its_equal">Time</a></li>
+                      <li><a href="#greather_than">Price</a></li>
+                      <li><a href="#less_than">Availabilty</a></li>
+                    </ul>
+                </div>
+                <input type="hidden" name="search_param" value="all" id="search_param">         
+                <input type="text" class="form-control" name="x" placeholder="Search event(s)...">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="button"><span class="fa fa-search"></span></button>
+                </span>
+            </div>
+											</div>
 											<div class="col-md-12 col-lg-4 mt-4">
 												<div class="card card-inverse card-info">
 													<img class="card-img-top" src="img/events/eventImg4.jpg">
@@ -572,9 +592,19 @@
 	  gtag('js', new Date());
 
 	  gtag('config', 'UA-109466601-1');
+	  
+		$(document).ready(function(e){
+			$('.search-panel .dropdown-menu').find('a').click(function(e) {
+				e.preventDefault();
+				var param = $(this).attr("href").replace("#","");
+				var concept = $(this).text();
+				$('.search-panel span#search_concept').text(concept);
+				$('.input-group #search_param').val(param);
+			});
+		});
 	</script>
 	
 	<script src="js/onloadModal.js"></script>
-
+	
 </body>
 </html>
