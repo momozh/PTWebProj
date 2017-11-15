@@ -485,12 +485,12 @@ body {
     color: rgba(0, 0, 0, .4);
 }
 
-.meta a {
+.meta span {
     text-decoration: none;
     color: rgba(0, 0, 0, .4);
 }
 
-.meta a:hover {
+.meta span:hover {
     color: rgba(0, 0, 0, .87);
 }
 

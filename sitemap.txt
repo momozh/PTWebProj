@@ -1,0 +1,9 @@
+http://cs3382.cs.cityu.edu.hk/kwokctse2/Potato-Fintech/index.html
+http://cs3382.cs.cityu.edu.hk/kwokctse2/Potato-Fintech/browse-events.html
+http://cs3382.cs.cityu.edu.hk/kwokctse2/Potato-Fintech/login.html
+http://cs3382.cs.cityu.edu.hk/kwokctse2/Potato-Fintech/profile.html
+http://cs3382.cs.cityu.edu.hk/kwokctse2/Potato-Fintech/choose_potato.html
+http://cs3382.cs.cityu.edu.hk/kwokctse2/Potato-Fintech/registration.html
+http://cs3382.cs.cityu.edu.hk/kwokctse2/Potato-Fintech/potato.html#/About
+http://cs3382.cs.cityu.edu.hk/kwokctse2/Potato-Fintech/potato.html#/Policies
+http://cs3382.cs.cityu.edu.hk/kwokctse2/Potato-Fintech/potato.html#/FAQ
